@@ -1,0 +1,31 @@
+/*component*/
+@import "component/status-bar.css";
+@import "component/nav-bar.css";
+/*shplayer first action screen*/
+@import "shplayer/music-content.css";
+@import "shplayer/music-station.css";
+@import "shplayer/popular-playlist.css";
+@import "shplayer/play-box.css";
+/*play-music screen*/
+@import "play-music/play-music-title.css";
+@import "play-music/playback-bar.css";
+
+body{
+    font-family: 'Open Sans', sans-serif;
+
+    display: flex;
+    margin: auto;
+
+}
+
+
+.a{
+    border-radius: 20px;
+    height:900px;
+    width:33%;
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    color: white;
+    background-color: black;
+}

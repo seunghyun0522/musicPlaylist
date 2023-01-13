@@ -1,0 +1,43 @@
+.music-content{
+display: flex;    
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 8px;
+
+}
+.music-cover:hover{
+    cursor: pointer;
+    transition:  0.5s ease-in-out;
+    filter: brightness(80%);}
+
+.artist-title:hover{
+    cursor: pointer;
+    transition:  0.5s ease-in-out;
+    filter: brightness(80%);}
+
+.subscribe-num:hover{
+    cursor: pointer;
+    transition:  0.5s ease-in-out;
+
+    filter: brightness(80%);}
+.music-cover{
+height: 125px;
+width: 120px;    
+border-radius: 100px;
+box-shadow: 3px 2px 30px #A4C5E4;
+}
+.artist-title{
+    margin-top: 20px;
+    margin-bottom: 2px;
+    font-size: 25px;
+}
+.subscribe-num{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 3px;
+    margin-bottom: 0;
+    color: #FF4E44;
+}
+
+

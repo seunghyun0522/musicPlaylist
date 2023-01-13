@@ -1,0 +1,55 @@
+.playback-bar{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.playback-bar__time-check{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10%;
+}
+.playback-bar-stick{
+    background-color: aliceblue;
+    width: 80%;
+    height: 1px;
+    margin: 10px 10%;
+}
+.start-bar{
+    width: 70%;
+border-color: white;
+    border: solid;
+}
+.end-point{
+    position: relative;
+    right: -69%;
+    top: -11.5px;
+
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: white;
+}
+.end-bar{
+    position: relative;
+    right: -70%;
+    top: -3.5px;
+    width: 30%;
+    border: solid;
+    border-color: rgb(196, 196, 196);
+}
+
+.playlist-btn-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 60px 20px;
+}
+.fa-start-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(94, 94, 94, 0.34);
+    padding: 20px 26px;
+    border-radius: 60px;
+
+}
